@@ -262,7 +262,7 @@ address {
   padding: 120px 0;
 }
 
-.benefits-icon {
+.advantage-icon {
   display: flex;
   width: 264px;
   height: 112px;
@@ -295,7 +295,7 @@ address {
   flex-shrink: 0;
 }
 
-.punkt {
+.point {
   width: calc((1128px - 72px) / 4);
   flex-shrink: 0;
 }
@@ -309,7 +309,7 @@ address {
   text-align: center;
 }
 
-.benefits {
+.advantage {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -371,7 +371,7 @@ address {
   background-color: #404BBF;
 }
 
-.worker {
+.all-team {
   padding: 32px 0;
 }
 
@@ -386,7 +386,7 @@ address {
   height: 260px;
 }
 
-.port-list {
+.team-members-list {
   background-color: white;
   display: block;
   width: 264px;
