@@ -394,7 +394,7 @@ address {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.introduction {
+.presentation {
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
@@ -406,7 +406,7 @@ address {
   margin-bottom: 72px;
 }
 
-.introduction-two {
+.presentation-two {
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
@@ -497,7 +497,7 @@ address {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.app-function {
+.team-task {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none
