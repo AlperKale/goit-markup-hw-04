@@ -41,17 +41,21 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-/* son 4 hata için kod kısmı */
+
 .studio-link {
   padding: 24px 0;
 }
 
 
 
-/* son 4 hata için kod kısmı */
+
 header {
   color: #FFFFFF;
   border-bottom: 1px solid #E7E9FC;
+      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+          0px 1px 1px rgba(46, 47, 66, 0.16),
+          0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .header-container,
@@ -67,7 +71,7 @@ header {
   display: flex;
   gap: 24px;
 }
-/* gelen hata düzeltme */
+
 .header-links{
   gap: 40px;
 }
@@ -75,7 +79,7 @@ header {
   gap: 40px;
 }
 
-/* gelen hata düzeltme sonu*/
+
 
 header .logo-web,
 .logo-studio,
@@ -109,6 +113,15 @@ header .logo-web {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.studio-link {
+  display: block;
+  padding: 24px 0;
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
 
 .navigation .studio-link:hover,
 .navigation .portfolio-link:hover,
@@ -151,7 +164,7 @@ header .logo-web {
   column-gap: 24px;
   row-gap: 48px;
 }
-/* 2. bölüm hata gelen */
+
 .section-second{
   padding: 120px 0;
 }
@@ -175,7 +188,7 @@ list-benefits{
   width: calc((1128px - 72px) / 4);
   flex-shrink: 0;
 }
-/* 2. bölüm hata gelen sonu */
+
 
 .big-title {
   max-width: 496px;
@@ -218,14 +231,14 @@ list-benefits{
   background-color: #FFFFFF;
 }
 
-/* 3 bölüm gelen hata düzeltme */
+
 
 .port-list {
   background-color: white;
   display: block;
   border-radius: 0px 0px 4px 4px;
 }
-/* 3 bölüm gelen hata düzeltme sonu */
+
 .introduction,
 .introduction-two {
   text-transform: capitalize;
@@ -265,9 +278,7 @@ list-benefits{
   border: 1px solid #e7e9fc ;
   margin-bottom: 8px;
 }
-/* yukarıdaki son üç hata sonucu eklendi */
 
-/* 4. bölüm gelen hatalar düzeltmesi */
 .app-function {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -275,7 +286,7 @@ list-benefits{
   margin-bottom: 8px;
 }
 
-/* son 1 hata düzeltmesi için */
+
 .their-name-port {
   display: inline-block;
   text-align: left;
